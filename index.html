@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <div class="headings">
+            <div class="main-head">
+                <h1>FLATDANGO</h1>
+            </div>
+            <div class="sub-head">
+                <h3>BUY MOVIE TICKETS</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- List film menu -->
+        <div class="column" id="film-list-column">
+            <div class="list-films">
+                <div class="list" id="films">
+                    <!-- Film items will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Poster -->
+        <div class="column" id="poster-column">
+            <img src="images/image.png" alt="Film Poster" id="poster">
+        </div>
+
+        <!-- Film info -->
+        <div class="column" id="film-info-column">
+            <div class="film-cards" id="film-info">
+                <div class="card">
+                    <div class="title" id="title">[FILM TITLE]</div>
+                    <div id="runtime" class="meta">[RUNTIME] minutes</div>
+                    <div class="content">
+                        <div class="description" id="description">[DESCRIPTION]</div>
+                        <span id="showtime" class="ui label">[SHOWTIME]</span>
+                        <span id="ticket-num">[X]</span> remaining tickets
+                    </div>
+                </div>
+                    <button class="film-btn">Buy Ticket</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Flatdango. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
